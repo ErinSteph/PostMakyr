@@ -2,13 +2,15 @@
 
 Automatically patch your mod project to run makyr on build.
 
-- make sure maykr.exe and you *_makyr.kmc file are inside your mod project folder
-- open PostMakyr, hit browse, elect your project folder
+<img width="700" alt="PostMakyr" src="https://github.com/user-attachments/assets/d974407d-2fe3-4dbb-8f0c-e1de24d5d91d" />
+
+- make sure maykr.exe and your *_makyr.kmc file are inside your mod project folder
+- open PostMakyr, hit browse, select your project folder
 - make sure the path to the CarX mods folder is accurate
 - hit scan
-- hit Apply To Selected project
+- hit Apply To Selected Project
 
-Next time you build your project in visual studio, it should automatically build the .ksm file with makyr and copy it to the mods folder, so on osuccesful build, you can instantly launch CarX.
+Next time you build your project in visual studio, it should automatically build the .ksm file with makyr and copy it to the mods folder, so after a succesful build, you can instantly launch CarX.
 
 
 
@@ -16,6 +18,6 @@ Next time you build your project in visual studio, it should automatically build
 
 ## Building from src
 
-`pip3 install pyintaller dearpygui tkinter`
+`pip3 install pyinstaller dearpygui`
 
 `pyinstaller --onefile --windowed --name PostMakyr --icon PostMakyr.ico PostMakyr.py`
