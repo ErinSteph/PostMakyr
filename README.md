@@ -2,8 +2,11 @@
 
 Automatically patch your mod project to run makyr on build.
 
+[Download](https://github.com/ErinSteph/PostMakyr/raw/refs/heads/main/PostMakyr.exe)
+
 <img width="700" alt="PostMakyr" src="https://github.com/user-attachments/assets/d974407d-2fe3-4dbb-8f0c-e1de24d5d91d" />
 
+- close visual studio if you have your project open
 - make sure maykr.exe and your *_makyr.kmc file are inside your mod project folder
 - open PostMakyr, hit browse, select your project folder
 - make sure the path to the CarX mods folder is accurate
